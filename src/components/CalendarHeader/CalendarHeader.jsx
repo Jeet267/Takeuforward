@@ -29,6 +29,11 @@ export default function CalendarHeader({ year, month, onPrev, onNext }) {
 
   return (
     <div className={styles.headerContainer}>
+      <div className={styles.topBar}>
+        <img src="/logo.png" alt="Company Logo" className={styles.logo} />
+        <span className={styles.brandName}>TAKEUFORWARD</span>
+      </div>
+      
       {/* Visual Spiral Binding */}
       <div className={styles.spiralBinding}>
         {[...Array(20)].map((_, i) => (
