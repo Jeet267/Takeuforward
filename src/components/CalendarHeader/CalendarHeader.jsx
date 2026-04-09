@@ -13,7 +13,7 @@ const HERO_IMAGES = [
   "https://images.unsplash.com/photo-1418985991508-e47386d96a71?auto=format&fit=crop&q=80&w=1200", // Jan - Snowy Mountain
   "https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?auto=format&fit=crop&q=80&w=1200", // Feb - Pink/Aesthetic
   "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&q=80&w=1200", // Mar - Spring Flowers
-  "https://images.unsplash.com/photo-1555448332-9092445e9854?auto=format&fit=crop&q=80&w=1200", // Apr - Soft Bloom
+  "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&q=80&w=1200", // Apr - Spring Bloom (Verified)
   "https://images.unsplash.com/photo-1476900543704-4312b78632f8?auto=format&fit=crop&q=80&w=1200", // May - Lush Green
   "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200", // Jun - Summer Beach
   "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200", // Jul - Summer Field
