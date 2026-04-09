@@ -49,7 +49,11 @@ export default function CalendarHeader({ year, month, onPrev, onNext }) {
         
         <div className={styles.dateDisplay}>
           <span className={styles.year}>{year}</span>
-          <span className={styles.month}>{MONTH_NAMES[month]}</span>
+          <span className={styles.month}>
+            {MONTH_NAMES[month].split('').map((char, index) => (
+              <span key={index}>{char}</span>
+            ))}
+          </span>
         </div>
       </div>
 

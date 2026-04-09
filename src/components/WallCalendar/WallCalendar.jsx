@@ -25,7 +25,7 @@ const MONTH_THEMES = [
 
 export default function WallCalendar() {
   const [currentDate, setCurrentDate] = useState(new Date());
-  
+
   // State for date range selection
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
@@ -89,20 +89,20 @@ export default function WallCalendar() {
 
   return (
     // Applying dynamic CSS variables based on the month
-    <div 
-      className={styles.calendarPaper} 
-      style={{ 
+    <div
+      className={styles.calendarPaper}
+      style={{
         '--dynamic-primary': MONTH_THEMES[month],
         '--primary-color': MONTH_THEMES[month]
       }}
     >
-      <CalendarHeader 
-        year={year} 
-        month={month} 
-        onPrev={handlePrevMonth} 
-        onNext={handleNextMonth} 
+      <CalendarHeader
+        year={year}
+        month={month}
+        onPrev={handlePrevMonth}
+        onNext={handleNextMonth}
       />
-      
+
       <div className={styles.calendarBody}>
         <div className={styles.notesPanel}>
           <AnimatePresence mode="wait">
@@ -118,7 +118,7 @@ export default function WallCalendar() {
             </motion.div>
           </AnimatePresence>
         </div>
-        
+
         <div className={styles.gridPanel}>
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
