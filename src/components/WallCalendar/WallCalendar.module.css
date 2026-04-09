@@ -1,0 +1,43 @@
+.calendarPaper {
+  background-color: var(--surface-color);
+  width: 100%;
+  max-width: 480px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-xl);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.calendarBody {
+  display: flex;
+  flex-direction: column-reverse; /* For mobile: Grid on top, Notes below */
+  padding: 1.5rem;
+  background-color: var(--surface-color);
+}
+
+.notesPanel {
+  flex: 1;
+}
+
+.gridPanel {
+  flex: 2;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .calendarPaper {
+    max-width: 800px;
+  }
+  
+  .calendarBody {
+    flex-direction: row; /* For desktop: Notes on left, Grid on right */
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .gridPanel {
+    margin-bottom: 0;
+  }
+}
