@@ -47,5 +47,4 @@ An interactive, responsive, and aesthetically premium Wall Calendar component bu
    npm run build
    ```
 
-## 📹 Demo
-A video walkthrough is included in the project documentation/GitHub.
+
